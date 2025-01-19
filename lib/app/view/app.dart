@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:minesweeper_flutter/counter/counter.dart';
 import 'package:minesweeper_flutter/l10n/l10n.dart';
+import 'package:minesweeper_flutter/main_menu/main_menu.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -16,7 +16,7 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: const CounterPage(),
+      home: const MainMenuPage(),
     );
   }
 }
